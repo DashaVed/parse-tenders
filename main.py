@@ -1,9 +1,7 @@
 from urllib.parse import urlparse, parse_qs
 
 import celery_tasks
-
-
-PAGE_NUMBERS = 2
+from constants import PAGE_NUMBERS
 
 
 def main():
